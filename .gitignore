@@ -1,0 +1,22 @@
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Python / Backend
+backend/venv/
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+backend/.pytest_cache/
+*.db
+backend/campuspulse.db
+backend/.env
+
+# macOS / OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db

@@ -1,0 +1,93 @@
+{
+  "_notice": "placeholder - verify source for all real-world tariffs and emission factors",
+  "campus_name": "CampusPulse Model University",
+  "currency": "INR",
+  "currency_symbol": "₹",
+  "factors": {
+    "electricity_tariff_inr_per_kwh": 8.50,
+    "electricity_emission_kg_co2e_per_kwh": 0.716,
+    "electricity_source_note": "CEA India CO2 Baseline Database v19 (placeholder - verify source)",
+
+    "water_tariff_inr_per_litre": 0.045,
+    "water_emission_kg_co2e_per_litre": 0.00035,
+    "water_source_note": "Municipal Bulk Institutional Rate ₹45/kL + lifecycle treatment (placeholder - verify source)",
+
+    "waste_disposal_inr_per_kg": 3.20,
+    "waste_landfill_emission_kg_co2e_per_kg": 1.250,
+    "waste_recycled_offset_kg_co2e_per_kg": -0.850,
+    "waste_source_note": "Campus MSW haulage & EPA WARM landfill factor (placeholder - verify source)"
+  },
+  "score_weights": {
+    "electricity_weight": 0.35,
+    "water_weight": 0.25,
+    "waste_weight": 0.20,
+    "anomalies_weight": 0.20
+  },
+  "equivalents": {
+    "kg_co2e_per_tree_per_month": 1.75,
+    "kg_co2e_per_car_km": 0.120,
+    "kwh_per_household_day": 10.0
+  },
+  "buildings": [
+    {
+      "id": "nilgiri-hostel",
+      "name": "Nilgiri Hostel",
+      "type": "Residential / Dormitory",
+      "occupancy": 650,
+      "area_sqm": 8200,
+      "base_kwh_per_day": 1850,
+      "base_water_l_per_day": 85000,
+      "base_waste_kg_per_day": 340
+    },
+    {
+      "id": "central-library",
+      "name": "Central Library",
+      "type": "Academic / Study",
+      "occupancy": 1200,
+      "area_sqm": 6500,
+      "base_kwh_per_day": 1420,
+      "base_water_l_per_day": 16000,
+      "base_waste_kg_per_day": 95
+    },
+    {
+      "id": "ramanujan-labs",
+      "name": "Ramanujan Computing & Labs",
+      "type": "Laboratories / High-Load",
+      "occupancy": 800,
+      "area_sqm": 9800,
+      "base_kwh_per_day": 3950,
+      "base_water_l_per_day": 24000,
+      "base_waste_kg_per_day": 140
+    },
+    {
+      "id": "annapoorna-canteen",
+      "name": "Annapoorna Canteen & Food Hall",
+      "type": "Dining / Kitchen",
+      "occupancy": 1500,
+      "area_sqm": 3200,
+      "base_kwh_per_day": 1680,
+      "base_water_l_per_day": 52000,
+      "base_waste_kg_per_day": 580
+    },
+    {
+      "id": "admin-block",
+      "name": "Administrative Block",
+      "type": "Offices / Administration",
+      "occupancy": 180,
+      "area_sqm": 4000,
+      "base_kwh_per_day": 860,
+      "base_water_l_per_day": 11000,
+      "base_waste_kg_per_day": 65
+    },
+    {
+      "id": "sports-complex",
+      "name": "Indoor Sports & Aquatics",
+      "type": "Athletics / Recreation",
+      "occupancy": 450,
+      "area_sqm": 5400,
+      "base_kwh_per_day": 1240,
+      "base_water_l_per_day": 68000,
+      "base_waste_kg_per_day": 110
+    }
+  ]
+}

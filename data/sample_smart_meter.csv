@@ -1,0 +1,7 @@
+building_id,timestamp,electricity_kwh,water_litres,waste_kg,waste_recycled_kg
+nilgiri-hostel,2026-10-01 08:00:00,75.4,3200.0,14.2,4.5
+central-library,2026-10-01 08:00:00,58.1,450.0,3.8,1.5
+ramanujan-labs,2026-10-01 08:00:00,165.2,920.0,5.1,2.0
+annapoorna-canteen,2026-10-01 08:00:00,88.4,2400.0,32.0,8.0
+admin-block,2026-10-01 08:00:00,42.0,350.0,2.5,1.2
+sports-complex,2026-10-01 08:00:00,64.5,2800.0,4.2,1.0
